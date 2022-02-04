@@ -262,6 +262,7 @@ fragments:
       - 'CONFIG_MFD_CROS_EC_DEV=m'
       - 'CONFIG_I2C_DESIGNWARE_PLATFORM=y'
       - 'CONFIG_TCG_TIS_I2C_CR50=m'
+      - 'CONFIG_PINCTRL_AMD=y'
 
   x86_kvm_guest:
     path: "kernel/configs/kvm_guest.config"
